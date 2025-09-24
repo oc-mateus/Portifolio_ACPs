@@ -3,7 +3,7 @@ const portfolioItems = [
   {
     id: 1,
     title: "Tendências da IA no Mercado de Tecnologia",
-    filename: "images/Tegra 05-09-24.jpeg",
+    filename: "/images/Tegra 05-09-24.jpeg",
     category: "apresentacao",
     description:
       "Apresentação sobre as tendências da Inteligência Artificial no mercado tecnológico.",
@@ -11,7 +11,7 @@ const portfolioItems = [
   {
     id: 2,
     title: "Treinamento BD-Itix",
-    filename: "images/Treinamento_BD-Itix.jpeg",
+    filename: "../images/Treinamento_BD-Itix.jpeg",
     category: "apresentacao",
     description:
       "Material de treinamento sobre banco de dados pela empresa Itix.",
