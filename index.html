@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateus De Campos Oliveira | Portfólio Profissional</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav-brand">
+          <h2>Mateus Oliveira</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+          <li><a href="#about" class="nav-link">Sobre</a></li>
+          <li><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content container">
+        <div class="hero-text">
+          <h1 class="hero-title">Mateus De Campos Oliveira</h1>
+          <p class="hero-subtitle">Desenvolvedor e Estudante de Tecnologia</p>
+          <p class="hero-description">
+            Portfólio profissional com certificados, apresentações e projetos na
+            área de tecnologia, desenvolvimento de software e ciência de dados.
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">Ver Portfólio</a>
+            <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <img
+              src="Images/WhatsApp Image 2025-09-24 at 16.12.45.jpeg"
+              alt="Foto de Mateus De Campos Oliveira"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <a href="#portfolio"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Meu Portfólio</h2>
+          <p class="section-subtitle">
+            Certificados, apresentações e materiais técnicos
+          </p>
+        </div>
+
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="certificado">
+            Certificados
+          </button>
+          <button class="filter-btn" data-filter="apresentacao">
+            Apresentações
+          </button>
+          <button class="filter-btn" data-filter="tecnologia">
+            Tecnologia
+          </button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-container">
+          <!-- Itens serão inseridos via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p>
+              Sou um profissional em formação na área de tecnologia, com foco em
+              desenvolvimento de software, ciência de dados e segurança digital.
+              Através do programa P-TECH, tenho tido a oportunidade de
+              participar de diversas palestras, cursos e treinamentos com
+              empresas parceiras.
+            </p>
+            <p>
+              Meu portfólio inclui certificados de cursos realizados,
+              apresentações técnicas e materiais de eventos dos quais
+              participei, demonstrando meu comprometimento com o aprendizado
+              contínuo e desenvolvimento profissional.
+            </p>
+            <div class="skills">
+              <h3>Áreas de Interesse</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Desenvolvimento Web</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Ciência de Dados</span>
+                <span class="skill-tag">Segurança Digital</span>
+                <span class="skill-tag">Internet das Coisas</span>
+                <span class="skill-tag">Inteligência Artificial</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>30+</h3>
+              <p>Certificados e Materiais</p>
+            </div>
+            <div class="stat">
+              <h3>5+</h3>
+              <p>Empresas Parceiras</p>
+            </div>
+            <div class="stat">
+              <h3>100+</h3>
+              <p>Horas de Formação</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Entre em Contato</h2>
+          <p class="section-subtitle">
+            Vamos conversar sobre oportunidades e projetos
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>mateusnegocios.com@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Telefone</h3>
+                <p>(15) 98146-2754</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Localização</h3>
+                <p>Sorocaba, SP - Brasil</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Formação</h3>
+                <p>ETEC Fernando Prestes</p>
+                <p>Programa P-TECH</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Seu nome" required />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Seu email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  placeholder="Assunto"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Sua mensagem"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Enviar Mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>Mateus De Campos Oliveira</h3>
+            <p>Desenvolvedor e Estudante de Tecnologia</p>
+          </div>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/oc-mateus/" class="social-link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/oc-mateus" class="social-link"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.instagram.com/oc_mateus/" class="social-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Mateus De Campos Oliveira. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="imageModal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <img class="modal-img" id="modalImage" src="" alt="" />
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
