@@ -883,3 +883,89 @@ a:hover {
     background-position: -200% 0;
   }
 }
+ /* CSS para as imagens do portfólio */
+      .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 2rem;
+      }
+      
+      .portfolio-item {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .portfolio-item:hover {
+        transform: translateY(-5px);
+      }
+      
+      .portfolio-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 1px solid #eee;
+      }
+      
+      .portfolio-content {
+        padding: 1.5rem;
+      }
+      
+      .portfolio-title {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: #2c3e50;
+      }
+      
+      .portfolio-desc {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      .portfolio-filename {
+        color: #888;
+        font-size: 0.8rem;
+      }
+      
+      .portfolio-category {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
+        color: white;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      
+      .filter-btn {
+        padding: 0.75rem 1.5rem;
+        background: white;
+        border: 2px solid #e5e7eb;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        color: #6b7280;
+        margin: 0.5rem;
+      }
+      
+      .filter-btn:hover, .filter-btn.active {
+        background: linear-gradient(135deg, #2563eb, #7c3aed);
+        color: white;
+        border-color: transparent;
+      }
+      
+      .filters {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 3rem;
+      }
+      
